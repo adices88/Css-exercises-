@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create User</title>
+  </head>
+  <body>
+    <h1>Crete user</h1>
+<hr>
+<form
+action="create_user.html"
+method="get"
+enctype="application/x-www-form-urlencoded"
+>
+    <fieldset >
+     <label for="username">Username:</label>
+        <input
+        name="username"
+        size="30"
+        placeholder="username"
+        maxlength="12"
+        type="text"
+        id="username">        
+   <br>
+    
+        <label for="password">Password:</label>
+        <input
+        name="password"
+        size="30"
+        size="8"
+        placeholder="password"
+        id="password">
+    <br>
+    
+<label for="superheros"> Select your favourite superhero:</label> <br>
+<input type="radio" name="superheros" id="superheros" value="Superman" > Superman
+<input type="radio" name="superheros" id="superheros" value="Batman"> Batman
+<input type="radio" name="superheros" id="superheros" value="Wonder Woman" checked> Wonder Woman
+<input type="radio" name="superheros" id="superheros" value="Flash"> Flash
+<input type="radio" name="superheros" id="superheros" value="Thor"> Thor
+<input type="radio" name="superheros" id="superheros" value="Hulk"> Hulk
+
+<br>
+    <label for="videogames">Select your favourite video game: </label>
+<input type="checkbox" name="videosames" id="videosames" value="Fifa" checked > Fifa
+<input type="checkbox" name="videosames" id="videosames" value="NHL" > NHL
+<input type="checkbox" name="videosames" id="videosames" value="Residen Evil" > Residen Evil
+<input type="checkbox" name="videosames" id="videosames" value="Uncharted" checked > Uncharted
+<br>
+    <input type="hidden" name="userid" value="2300" />
+<br>
+<button name="login">
+<img width="auto" height="auto" src="./img/register_button.png">
+</button>
+</fieldset>
+</form>
+</body>
+</html>

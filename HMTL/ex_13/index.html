@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create user</title>
+  </head>
+  <body>
+    <hr>
+<fieldset>
+    
+<form> 
+<label for="name">Name:</label>
+<input type="text" name="name" placeholder="name">
+<br>
+-
+<br>
+<label for="fmovie ">Select your favorite movie:</label> <br>
+<select name="options">
+
+<option value="null"> --Options-- </option>
+<option value="deadpool"> Deadpool </option>
+<option value="batman_vs_superman"> Batman v Superman </option>
+<option value="doctor_strange"> Doctor Strange</option>
+<option value=" suicide_squad"> Suicide Squad</option>
+<option value="apocalypse"> X-Men: Apocalypse </option>
+<option value="gotg_vol2">  Guardians of the Galaxy Vol 2</option>
+<option value="logan">  Logan</option>
+<option value="homecoming">  Spider-Man: Homecoming </option>
+<option value="wonder_woman" selected > Wonder Woman </option>
+<option value="thor_ragnarok"> Thor: Ragnarok</option>
+<option value="black_panther"> Black Panther</option>
+</select>
+<br>
+-
+<br>
+<textarea
+  name="Bio"
+  placeholder="Please provide a short bio about yourself"
+></textarea>
+<br>
+<label for="avatar">Choose a profile picture:</label>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="avatar" accept="image/png, image/jpeg" />
+  </form>
+<br>
+<label for="clear_form" ></label>
+<button value="clear" name="clear_form">Clear form</button>
+<label for="new_user" ></label>
+<button value="newuser" name="new_user">Add new user</button>
+
+
+</form>
+
+
+
+
+
+
+
+
+
+</fieldset>
+
+
+
+
+  </body>
+</html>
